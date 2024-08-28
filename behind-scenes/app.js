@@ -1,8 +1,8 @@
 const app = Vue.createApp({
   data() {
     return {
-      currentUserInput: '',
-      message: 'Vue is great!',
+      currentUserInput: "",
+      message: "Vue is great!",
     };
   },
   methods: {
@@ -24,12 +24,16 @@ const data = {
 
 const handler = {
   set(target, key, value) {
-    console.log(`target:`, target);
-    console.log(`key:`, key);
-    console.log(`value:`, value);
+    if (key === "message") {
+      target.longMessage = value + "덧붙이는 말";
+    }
+
+    target.message = value;
   },
 };
 
 const proxy = new Proxy(data, handler);
 
 proxy.message = "Hello!!!!!";
+
+console.log(proxy.longMessage);
