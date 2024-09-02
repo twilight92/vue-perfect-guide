@@ -1,18 +1,31 @@
 const app = Vue.createApp({
   data() {
     return {
-      currentUserInput: '',
-      message: 'Vue is great!',
+      currentUserInput: "",
+      message: "Vue is great!",
     };
   },
   methods: {
-    saveInput(event) {
-      this.currentUserInput = event.target.value;
-    },
     setText() {
-      this.message = this.currentUserInput;
+      // this.message = this.currentUserInput;
+      // this.message = this.$refs.userText;
+
+      console.dir(this.$refs.userText);
     },
   },
 });
 
-app.mount('#app');
+app.mount("#app");
+
+const app2 = Vue.createApp({
+  template: `
+    <p>{{ favoriteMeal }}</p>
+  `,
+  data() {
+    return {
+      favoriteMeal: "파스타123",
+    };
+  },
+});
+
+app2.mount("#app2");
