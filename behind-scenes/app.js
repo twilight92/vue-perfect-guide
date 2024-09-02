@@ -8,9 +8,7 @@ const app = Vue.createApp({
   methods: {
     setText() {
       // this.message = this.currentUserInput;
-      // this.message = this.$refs.userText;
-
-      console.dir(this.$refs.userText);
+      this.message = this.$refs.userText.value;
     },
   },
 });
