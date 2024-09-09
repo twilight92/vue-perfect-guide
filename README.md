@@ -46,3 +46,4 @@
   - [x] [Proxy](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%985-Vue-%EB%82%B4%EB%B6%80-%EB%93%A4%EC%97%AC%EB%8B%A4%EB%B3%B4%EA%B8%B0#proxy%EB%9E%80)를 이용한 Vue 반응성 심층 분석
   - [x] 여러 개의 Vue 앱 사용이 가능한지 알아보기
   - [x] Ref 이해
+  - [x] Vue가 DOM을 업데이트하는 방법
