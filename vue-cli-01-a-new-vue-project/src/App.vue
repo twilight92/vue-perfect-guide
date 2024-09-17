@@ -6,11 +6,13 @@
         name="Manuel Lorenz"
         phone-number="0123 3456 90"
         email-address="manuel@localhost.com"
+        is-favorite="1"
       ></freind-contact>
       <freind-contact
         name="julie Jones"
         phone-number="12123 3456 90"
         email-address="julie@localhost.com"
+        is-favorite="0"
       ></freind-contact>
     </ul>
   </section>
