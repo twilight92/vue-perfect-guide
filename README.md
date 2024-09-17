@@ -48,4 +48,5 @@
   - [x] Ref 이해
   - [x] Vue가 DOM을 업데이트하는 방법
 - [컴포넌트](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-6:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8)
-  - [x] 컴포넌트 이해하기 
+  - [x] 컴포넌트 이해하기
+- Vue CLI를 사용하여 더 나은 개발 설정 및 워크플로우로 전환하기
