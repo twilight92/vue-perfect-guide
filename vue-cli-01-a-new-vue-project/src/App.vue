@@ -2,7 +2,16 @@
   <section>
     <header><h1>My Freinds</h1></header>
     <ul>
-      <freind-contact></freind-contact>
+      <freind-contact
+        name="Manuel Lorenz"
+        phone-number="0123 3456 90"
+        email-address="manuel@localhost.com"
+      ></freind-contact>
+      <freind-contact
+        name="julie Jones"
+        phone-number="12123 3456 90"
+        email-address="julie@localhost.com"
+      ></freind-contact>
     </ul>
   </section>
 </template>
@@ -12,22 +21,7 @@ import FreindContact from "./components/FreindContact.vue";
 export default {
   components: { FreindContact },
   data() {
-    return {
-      friends: [
-        {
-          id: "manuel",
-          name: "Manuel Lorenz",
-          phone: "0123 3456 90",
-          email: "manuel@localhost.com",
-        },
-        {
-          id: "julie",
-          name: "julie Jones",
-          phone: "12123 3456 90",
-          email: "julie@localhost.com",
-        },
-      ],
-    };
+    return {};
   },
 };
 </script>
