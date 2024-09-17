@@ -47,3 +47,5 @@
   - [x] 여러 개의 Vue 앱 사용이 가능한지 알아보기
   - [x] Ref 이해
   - [x] Vue가 DOM을 업데이트하는 방법
+- [컴포넌트](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-6:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8)
+  - [x] 컴포넌트 이해하기 
