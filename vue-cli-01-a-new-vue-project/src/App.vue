@@ -2,13 +2,15 @@
   <section>
     <h2>My Freinds</h2>
     <ul>
-      <li></li>
+      <freind-contact></freind-contact>
     </ul>
   </section>
 </template>
 
 <script>
+import FreindContact from "./components/FreindContact.vue";
 export default {
+  components: { FreindContact },
   data() {
     return {
       friends: [
