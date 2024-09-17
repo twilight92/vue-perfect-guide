@@ -31,10 +31,7 @@ export default {
     isFavorite: {
       type: String,
       required: false,
-      default: "0",
-      validator: function (value) {
-        return value === "1" || value === "0";
-      },
+      default: Boolean,
     },
   },
   data() {
