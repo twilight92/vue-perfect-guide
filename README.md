@@ -47,6 +47,13 @@
   - [x] 여러 개의 Vue 앱 사용이 가능한지 알아보기
   - [x] Ref 이해
   - [x] Vue가 DOM을 업데이트하는 방법
-- [컴포넌트](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-6:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8)
+- [컴포넌트 소개](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-6:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8)
   - [x] 컴포넌트 이해하기
 - Vue CLI를 사용하여 더 나은 개발 설정 및 워크플로우로 전환하기
+  - 개발 서버가 필요한 이유, 더 나은 개발자 경험이 필요한 이유 알아보기
+  - Vue CLI 설치 및 사용하기
+  - VS CODE에 "Vetur" 확장 프로그램 추가하기
+  - 설정 대안 알아보기
+    - Vue CLI 설치/사용 대신 `npm init vue` 사용
+    - Vetur 대신 Volar 확장 프로그램 사용
+- [컴포넌트 통신](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-8:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%86%B5%EC%8B%A0)
