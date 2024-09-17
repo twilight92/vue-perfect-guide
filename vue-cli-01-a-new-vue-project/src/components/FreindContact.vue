@@ -29,9 +29,9 @@ export default {
       required: true,
     },
     isFavorite: {
-      type: String,
+      type: Boolean,
       required: false,
-      default: Boolean,
+      default: false,
     },
   },
   data() {
