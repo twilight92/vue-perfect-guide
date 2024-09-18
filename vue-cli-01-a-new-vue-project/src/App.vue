@@ -3,16 +3,12 @@
     <header><h1>My Freinds</h1></header>
     <ul>
       <freind-contact
-        name="Manuel Lorenz"
-        phone-number="0123 3456 90"
-        email-address="manuel@localhost.com"
+        v-for="friend in friends"
+        :key="friend.id"
+        :name="friend.name"
+        :phone-number="friend.phone"
+        :email-address="friend.email"
         :is-favorite="true"
-      ></freind-contact>
-      <freind-contact
-        name="julie Jones"
-        phone-number="12123 3456 90"
-        email-address="julie@localhost.com"
-        :is-favorite="false"
       ></freind-contact>
     </ul>
   </section>
@@ -23,7 +19,22 @@ import FreindContact from "./components/FreindContact.vue";
 export default {
   components: { FreindContact },
   data() {
-    return {};
+    return {
+      friends: [
+        {
+          id: "manuel",
+          name: "Manuel Lorenz",
+          phone: "0123 123 123",
+          email: "manuel@localhost.com",
+        },
+        {
+          id: "julie",
+          name: "julie Lorenz",
+          phone: "0123 456 789",
+          email: "julie@localhost.com",
+        },
+      ],
+    };
   },
 };
 </script>
