@@ -36,7 +36,7 @@ export default {
       const newUser = {
         id: new Date().toISOString(),
         name: name,
-        age: age,
+        age: +age,
       };
 
       this.users.push(newUser);
