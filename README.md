@@ -57,3 +57,12 @@
     - Vue CLI 설치/사용 대신 `npm init vue` 사용
     - Vetur 대신 Volar 확장 프로그램 사용
 - [컴포넌트 통신](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-8:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%86%B5%EC%8B%A0)
+  - 프로퍼티(부모 => 자녀 통신)
+    - 프로퍼티 작동 방식 및 변경
+    - 프로퍼티 검증
+    - 지원되는 프로퍼티
+    - 동적 프로퍼티 사용하기
+  - 커스텀 이벤트 방출(자식 => 부모 통신)
+    - 프로퍼티/이벤트 폴스루 및 모든 프로퍼티 바인딩
+  - Provide + Inject
+    - Provide + Inject VS 프로퍼티 및 커스텀 이벤트
