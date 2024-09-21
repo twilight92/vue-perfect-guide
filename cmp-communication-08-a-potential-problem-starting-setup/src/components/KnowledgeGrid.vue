@@ -13,7 +13,8 @@
 
 <script>
 export default {
-  props: ['topics'],
-  emits: ['select-topic']
+  // inject는 provide와 세트(부모 자식 관계), props와 동일하게 작동
+  inject: ['topics'],
+  emits: ['select-topic'],
 };
 </script>
