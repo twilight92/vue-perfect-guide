@@ -50,19 +50,19 @@
 - [컴포넌트 소개](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-6:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8)
   - [x] 컴포넌트 이해하기
 - Vue CLI를 사용하여 더 나은 개발 설정 및 워크플로우로 전환하기
-  - 개발 서버가 필요한 이유, 더 나은 개발자 경험이 필요한 이유 알아보기
-  - Vue CLI 설치 및 사용하기
-  - VS CODE에 "Vetur" 확장 프로그램 추가하기
-  - 설정 대안 알아보기
+  - [x] 개발 서버가 필요한 이유, 더 나은 개발자 경험이 필요한 이유 알아보기
+  - [x] Vue CLI 설치 및 사용하기
+  - [x] VS CODE에 "Vetur" 확장 프로그램 추가하기
+  - [x] 설정 대안 알아보기
     - Vue CLI 설치/사용 대신 `npm init vue` 사용
     - Vetur 대신 Volar 확장 프로그램 사용
 - [컴포넌트 통신](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-8:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%86%B5%EC%8B%A0)
-  - 프로퍼티(부모 => 자녀 통신)
+  - [x] 프로퍼티(부모 => 자녀 통신)
     - 프로퍼티 작동 방식 및 변경
     - 프로퍼티 검증
     - 지원되는 프로퍼티
     - 동적 프로퍼티 사용하기
-  - 커스텀 이벤트 방출(자식 => 부모 통신)
+  - [x] 커스텀 이벤트 방출(자식 => 부모 통신)
     - 프로퍼티/이벤트 폴스루 및 모든 프로퍼티 바인딩
-  - Provide + Inject
+  - [x] Provide + Inject
     - Provide + Inject VS 프로퍼티 및 커스텀 이벤트
