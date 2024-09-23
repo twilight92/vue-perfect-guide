@@ -12,10 +12,14 @@
 
 <script>
 import TheHeader from "./components/TheHeader.vue";
+import BadgeList from "./components/BadgeList.vue";
+import UserInfo from "./components/UserInfo.vue";
 
 export default {
   components: {
-    "the-header": TheHeader,
+    TheHeader,
+    BadgeList,
+    UserInfo,
   },
   data() {
     return {
