@@ -11,13 +11,18 @@
 </template>
 
 <script>
+import TheHeader from "./components/TheHeader.vue";
+
 export default {
+  components: {
+    "the-header": TheHeader,
+  },
   data() {
     return {
       activeUser: {
-        name: 'Maximilian Schwarzmüller',
-        description: 'Site owner and admin',
-        role: 'admin',
+        name: "Maximilian Schwarzmüller",
+        description: "Site owner and admin",
+        role: "admin",
       },
     };
   },
