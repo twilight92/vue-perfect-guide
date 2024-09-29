@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header>
+    <header v-if="$slots.header">
       <slot name="header">
         <!-- <h2>기본</h2> -->
       </slot>
@@ -8,15 +8,6 @@
     <slot></slot>
   </div>
 </template>
-
-<script>
-export default {
-  mounted() {
-    console.log("header", this.$slots.header);
-    console.log("default", this.$slots.default);
-  },
-};
-</script>
 
 <style scoped>
 header {
