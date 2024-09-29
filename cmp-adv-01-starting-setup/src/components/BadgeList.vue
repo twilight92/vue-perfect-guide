@@ -1,7 +1,7 @@
 <template>
   <section>
     <base-card>
-      <template v-slot:default>
+      <template #default>
         <ul>
           <li>
             <base-badge type="admin" caption="ADMIN"></base-badge>
