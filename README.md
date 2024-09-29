@@ -67,3 +67,10 @@
   - [x] Provide + Inject
     - Provide + Inject VS 프로퍼티 및 커스텀 이벤트
 - [컴포넌트 자세히 알아보기](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-9:-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%9E%90%EC%84%B8%ED%9E%88-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
+  - [x] 전역/지역 컴포넌트
+  - [x] 범위가 지정된(Scoped) 스타일
+  - [x] 슬롯(Slots) 알아보기
+  - [x] 이름이 있는 슬롯(Named Slots)
+  - [x] 슬롯에 대한 추가 정보
+    - `$slots`을 이용한 제공된 콘텐츠에 엑세스, 활용
+    - v-slot 축약어 #(해시)
