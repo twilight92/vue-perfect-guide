@@ -12,3 +12,9 @@
     </nav>
   </li>
 </template>
+
+<script>
+export default {
+  props: ['title', 'description', 'link'],
+};
+</script>
