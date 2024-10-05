@@ -1,9 +1,19 @@
 <template>
-  <ul></ul>
+  <ul>
+    <learning-resource
+      v-for="res in storeResources"
+      :key="res.id"
+    ></learning-resource>
+  </ul>
 </template>
 
 <script>
+import LearningResource from './components/learning-resources/LearningResource.vue';
+
 export default {
+  components: {
+    LearningResource,
+  },
   data() {
     return {
       storeResources: [
