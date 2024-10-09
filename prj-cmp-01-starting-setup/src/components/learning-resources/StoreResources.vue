@@ -1,7 +1,7 @@
 <template>
   <ul>
     <learning-resource
-      v-for="res in storeResources"
+      v-for="res in resources"
       :key="res.id"
       :title="res.title"
       :description="res.description"
@@ -9,3 +9,9 @@
     ></learning-resource>
   </ul>
 </template>
+
+<script>
+export default {
+  props: ['resources'],
+};
+</script>
