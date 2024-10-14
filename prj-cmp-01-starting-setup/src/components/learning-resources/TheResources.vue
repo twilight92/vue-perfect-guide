@@ -7,6 +7,7 @@
       >Add Resources</base-button
     >
   </base-card>
+  <component :is="selectedTab"></component>
 </template>
 
 <script>
