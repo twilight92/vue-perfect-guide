@@ -42,7 +42,7 @@
     - winner 데이터 프로퍼티와 v-if 디렉티브 사용하여 메세지 노출
     - 다시 시작하기 버튼, 메소드 추가
   - [x] 전투 기록 추가하기
-- [Vue 내부 들여다보기](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%985-Vue-%EB%82%B4%EB%B6%80-%EB%93%A4%EC%97%AC%EB%8B%A4%EB%B3%B4%EA%B8%B0)
+- [Vue 내부 들여다보기](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-5:-Vue-%EB%82%B4%EB%B6%80-%EB%93%A4%EC%97%AC%EB%8B%A4%EB%B3%B4%EA%B8%B0)
   - [x] Proxy를 이용한 Vue 반응성 심층 분석
   - [x] 여러 개의 Vue 앱 사용이 가능한지 알아보기
   - [x] Ref 이해
