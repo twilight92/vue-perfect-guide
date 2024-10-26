@@ -82,15 +82,21 @@ export default {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({
+          body: {
             name: this.enteredName,
             rating: this.chosenRating,
-          }),
+          },
         }
-      ).catch((error) => {
-        console.log(error);
-        this.error = 'Something went wrong - try again later!';
-      });
+      )
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Could not save data!');
+          }
+        })
+        .catch((error) => {
+          console.log(error);
+          this.error = error.message;
+        });
 
       this.enteredName = '';
       this.chosenRating = null;
