@@ -83,4 +83,4 @@
   - [x] 폴더 정리
 - [양식(Forms)](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-11:-%EC%96%91%EC%8B%9D(Forms))
 - [HTTP 요청 보내기](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-12:-HTTP-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0)
-- 라우팅(Routing): "다중 페이지"가 있는 싱글 페이지 애플리케이션(SPA) 구축하기
+- [라우팅(Routing)](https://github.com/twilight92/vue-perfect-guide/wiki/%EC%84%B9%EC%85%98-13:-%EB%9D%BC%EC%9A%B0%ED%8C%85(Routing)): "다중 페이지"가 있는 싱글 페이지 애플리케이션(SPA) 구축하기
