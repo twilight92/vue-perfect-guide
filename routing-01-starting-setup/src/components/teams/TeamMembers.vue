@@ -16,17 +16,31 @@
 import UserItem from '../users/UserItem.vue';
 
 export default {
+  inject: ['users', 'teams'],
   components: {
-    UserItem
+    UserItem,
   },
   data() {
     return {
-      teamName: 'Test',
-      members: [
-        { id: 'u1', fullName: 'Max Schwarz', role: 'Engineer' },
-        { id: 'u2', fullName: 'Max Schwarz', role: 'Engineer' },
-      ],
+      teamName: '',
+      members: [],
     };
+  },
+  created() {
+    // 컴포넌트 생성 시 모든 데이터가 사용 가능 상태이며 화면에 표시는 되기 전에 호출
+    // created를 통해 주입된 데이터뿐만 아니라 라우팅 데이터에도 액세스 할 수 있다.
+    // this.$route.path // /teams/teamId
+
+    const teamId = this.$route.params.teamId;
+    const selectedTeam = this.teams.find((team) => team.id === teamId);
+    const members = selectedTeam.members;
+    const selectedMembers = [];
+    for (const member of members) {
+      const selectedUser = this.users.find((user) => user.id === member);
+      selectedMembers.push(selectedUser);
+    }
+    this.members = selectedMembers;
+    this.teamName = selectedTeam.name;
   },
 };
 </script>
