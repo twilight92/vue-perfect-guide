@@ -1,7 +1,12 @@
 <template>
   <button @click="confirmInput">Confirm</button>
   <ul>
-    <user-item v-for="user in users" :key="user.id" :name="user.fullName" :role="user.role"></user-item>
+    <user-item
+      v-for="user in users"
+      :key="user.id"
+      :name="user.fullName"
+      :role="user.role"
+    ></user-item>
   </ul>
 </template>
 
@@ -17,6 +22,11 @@ export default {
     confirmInput() {
       this.$router.push('/teams');
     },
+  },
+  beforeRouteEnter(to, from, next) {
+    console.log('UsersList Cmp beforeRouteEnter');
+    console.log(to, from);
+    next();
   },
 };
 </script>
