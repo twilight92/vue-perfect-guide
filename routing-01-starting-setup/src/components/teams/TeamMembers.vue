@@ -46,6 +46,8 @@ export default {
     // created를 통해 주입된 데이터뿐만 아니라 라우팅 데이터에도 액세스 할 수 있다.
     // this.$route.path // /teams/teamId
     this.loadTeamMembers(this.teamId);
+
+    console.log(this.$route.query);
   },
   watch: {
     teamId(newId) {
