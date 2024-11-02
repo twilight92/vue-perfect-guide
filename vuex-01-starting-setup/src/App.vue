@@ -3,7 +3,7 @@
     <the-counter></the-counter>
     <favorite-value></favorite-value>
     <h3>{{ counter }}</h3>
-    <button @click="addOne">Add 1</button>
+    <button @click="addOne">Add 10</button>
     <change-counter></change-counter>
   </base-container>
 </template>
@@ -23,8 +23,8 @@ export default {
   },
   methods: {
     addOne() {
-      // this.$store.commit('increment');
-      this.$store.commit({
+      // this.$store.dispatch('increment', {value: 10});
+      this.$store.dispatch({
         type: 'increase',
         value: 10,
       });
