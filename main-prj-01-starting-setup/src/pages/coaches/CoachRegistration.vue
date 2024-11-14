@@ -1,6 +1,4 @@
-<template>
-  <div></div>
-</template>
+<template>RESISTER</template>
 
 <script>
 export default {};
