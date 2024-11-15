@@ -1,4 +1,4 @@
-<template>CONTACT A COACH</template>
+<template><div></div></template>
 
 <script>
 export default {};
