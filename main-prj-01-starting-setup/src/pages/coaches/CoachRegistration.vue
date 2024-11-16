@@ -16,6 +16,8 @@ export default {
   methods: {
     saveData(data) {
       this.$store.dispatch('coaches/registerCoach', data);
+      // replace가 push와 다른 점은 이전 페이지로 돌아갈 수 없다. 양식 제출 후 양식 페이지로 돌아가지 않기 위해 사용한다.
+      this.$router.replace('./coaches');
     },
   },
 };
